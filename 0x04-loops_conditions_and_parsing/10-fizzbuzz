@@ -13,7 +13,7 @@ while [ "$n" -le 100 ]; do
   elif ! (( n % 5 )); then
     echo "Buzz"
   else 
-    echo "%n"
+    echo "$n"
   fi
 
   ((n++))
