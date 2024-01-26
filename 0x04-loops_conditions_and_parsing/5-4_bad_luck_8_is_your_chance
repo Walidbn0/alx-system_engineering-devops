@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# 4 bad luck, 8 is your chance
+
+i=1
+
+while [ "$i" -lt 11 ]; do
+
+  # if 4 bad luck elif 8 good luck
+  if [ "$i" -eq 4 ]; do
+    echo "bad luck"
+  elif [ "$i" -eq 8 ]; do
+    echo "good luck"
+  else
+    eho "Best School"
+  fi
+
+  ((i++))
+done
